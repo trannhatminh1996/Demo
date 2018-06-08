@@ -1,0 +1,22 @@
+.table, .table tr, .table td{
+    border: 1px solid #000;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+.bold {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+#hoverdiv{
+    display:none;
+    position:absolute;
+    font-size: 14px;
+    background-color:rgb(221, 221, 199);
+    color:black;
+    border:1px solid #999;
+    padding: 7px;
+}
