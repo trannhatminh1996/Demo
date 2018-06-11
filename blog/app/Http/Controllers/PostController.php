@@ -21,6 +21,12 @@ class PostController extends Controller
         //$posts = Post::all();
         //$posts = Post::orderBy('name','asc')->take(1)->get();
         $posts = Post::orderBy('name','asc')->paginate(5);
+        if (isset($_GET['phpString']))
+        {
+            $a = $_GET['phpString'];
+            echo strrev($a);
+            return ($a);
+        }
         return view('posts.index')->with('posts',$posts);
     }
 

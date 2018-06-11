@@ -30,6 +30,7 @@
                     <li><a href="/posts">List</a></li>
                     <li><a class="p-2 text-dark" href="/posts/create">Create</a></li>
                     <li><a class="p-2 text-dark" href="/searchform">Search</a></li>
+                    <li><a href="/testjQuery">TestJquery</a></li>
                 </ul>
     
                 <!-- Right Side Of Navbar -->

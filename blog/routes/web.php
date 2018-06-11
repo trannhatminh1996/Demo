@@ -29,3 +29,5 @@ Route::get('/dashboard', 'DashboardController@index');
 Route::delete('/dashboard/delete/{id}','DashboardController@destroypost');
 
 Route::post('/continueadd','SearchController@continueadd');
+
+Route::get('/testjQuery','TestController@testjQuery');
