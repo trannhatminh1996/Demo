@@ -601,3 +601,29 @@ $('#button').click(function(){
     });
 });
 */
+/*
+function checkValidEmail(email){
+    $.post('js/sources/email.php',{email:email},function(data){
+        $('#email_feedback').html(data);
+    });
+}
+$('#email').focusin(function(){
+    if ($('#email').val()=='')
+        $('#email_feedback').text('Type your email');
+    else
+        checkValidEmail($('#email').val());
+}).blur(function(){
+    $('#email_feedback').text('');
+}).keyup(function(){
+    checkValidEmail($('#email').val());
+});
+*/
+/*
+$('#save_button').click(function(){
+    var name= $('#name').val();
+    $('#feedback').text('Loading...');
+    $.post('js/sources/settings.php',{name:name},function(data){
+        $('#feedback').html(data);
+    });
+});
+*/

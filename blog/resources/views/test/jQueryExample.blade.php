@@ -222,8 +222,17 @@ Address: <p><input type="text" minlength="10"/></p>
 <input id="button" type="button" value="Load"/>
 <div id="content"></div>
 
+Email: <input type="text" id="email"/><span id="email_feedback"></span>
+
+<h3>Settings:</h3>
+<p>Name: <input type="text" id="name"/></p>
+<p>
+    <input type="button" id="save_button" value="Save"/>
+    <span id="feedback"></span>
+</p>
 -->
 
+<input type="password"/>
 
 <script src="js/jquery.js"></script>
 <script src="js/code/selectors.js"></script>

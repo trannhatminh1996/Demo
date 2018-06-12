@@ -62,8 +62,17 @@
                         </div>
 
                         <div class="form-group">
+                            <label for="isAdmin" class="col-md-4 control-label">isAdmin</label>
+                            <div>
+                            <input id="isAdmincheckbox" type="checkbox" class="form-control" name="isAdmin">
+                            </div>
+                            <div class="col-md-6">
+                                <input style="display:none;" id="isAdmin" type="text" class="form-control" name="isAdmin" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary" id ="register_button">
                                     Register
                                 </button>
                             </div>
@@ -75,3 +84,6 @@
     </div>
 </div>
 @endsection
+<input type="button" id="check" value="check"/>
+<script src="http://demo.com/js/jquery.js"></script>
+<script src="http://demo.com/js/code/addisAmindfield.js"></script>

@@ -31,3 +31,15 @@ Route::delete('/dashboard/delete/{id}','DashboardController@destroypost');
 Route::post('/continueadd','SearchController@continueadd');
 
 Route::get('/testjQuery','TestController@testjQuery');
+
+Route::get('/subject','SubjectController@showsubject');
+
+Route::get('/adminpage','SubjectController@adminpage')->middleware('test');
+
+Route::get('/testcsrf',function(){
+    return view('test.testcsrf');
+});
+
+Route::post('/post_to_this',function(){
+    return "Hello";
+});
